@@ -1,6 +1,7 @@
 # expo-android-build
 react native guide to build expo apps using eas locally
 ```
+npm install -g eas-cli
 apt-get install android-sdk
 export ANDROID_HOME=/usr/lib/android-sdk
 ```
