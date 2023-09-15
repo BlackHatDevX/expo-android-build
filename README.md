@@ -1,6 +1,12 @@
 # expo-android-build
 react native guide to build expo apps using eas locally
 ```
+wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb
+sudo apt-get -qqy install ./jdk-17_linux-x64_bin.deb
+sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-17-oracle-x64/bin/java 1919
+```
+
+```
 npm install -g eas-cli
 apt-get install android-sdk
 export ANDROID_HOME=/usr/lib/android-sdk
